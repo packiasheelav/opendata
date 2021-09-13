@@ -39,5 +39,24 @@ DB - SQLite
    
    - Open http://localhost:3000 for client and you should see the app homepage!
 
+## Docker environment:
 
+# Prerequisites:
+Make sure you have already installed Docker Engine.
+
+Installing/starting opendata/server:
+
+$cd /opendata/server
+$docker build -t sensor-rest-api-image .
+docker run -p 3001:3001 -d --name sensor-rest-api sensor-rest-api-image
+
+Installing/starting opendata/client:
+
+$cd /opendata/client
+$docker build -t sensor-web-image .
+docker run -p 80:80 -d --name sensor-web sensor-web-image
+
+GO to web ui
+# http://< host >:80
+   
 ## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
