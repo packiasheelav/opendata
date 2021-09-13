@@ -1,8 +1,7 @@
-# Sensor opendata
-
+# Opendata Visualization
 
 ### This application is to create a system that would report a certain sensor data over around the internet. The result is a service that returns changing sensor data every hour.
-### This application is to show visualization of the data, with the the information collected from https://opendata.hopefully.works/api/events.
+## This application is to show visualization of the data, with the the information collected from https://opendata.hopefully.works/api/events.
    
 ### Prerequistes
 
@@ -19,7 +18,7 @@ To be able to access the /api/events,i have set a request header using the acces
 
 {"date": "2019-01-29T22:00:00.000Z", "sensor1": XXX, "sensor2": XXX, "sensor3": XXX, "sensor4": XXX}
 
-   The data is used in client UI to show the data visualization.
+The data is used in client UI to show the data visualization.
 ## The tech stack includes:
 
 # Client
@@ -36,7 +35,7 @@ DB - SQLite
 * Install the required packages with `yarn`  both in client and server
 
    - Start the  server with `yarn start` 
-   - Open http://localhost:3001 for Server and you should see the app homepage!
+   - Open http://localhost:3001 for Server.
    
    - Open http://localhost:3000 for client and you should see the app homepage!
 
