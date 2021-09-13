@@ -1,0 +1,8 @@
+{
+    "env": {
+        "SENSOR_USER_EMAIL":"sheelaveldurai@gmail.com",
+        "SENSOR_USER_PWD":"KarthiK2015$",
+        "SENSOR_LOGIN_URL":"https://opendata.hopefully.works/api/login",
+        "SENSOR_DATA_FETCH_URL":"https://opendata.hopefully.works/api/events"
+    }
+}
