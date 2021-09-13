@@ -1,7 +1,6 @@
 # Opendata Visualization
 
-### This application is to create a system that would report a certain sensor data over around the internet. The result is a service that returns changing sensor data every hour.
-# This application is to show visualization of the data, with the the information collected from https://opendata.hopefully.works/api/events.
+This application is to create a system that would report a certain sensor data over around the internet. The result is a service that returns changing sensor data every hour. This application is to show visualization of the data, with the the information collected from https://opendata.hopefully.works/api/events.
    
 ### Prerequistes
 
